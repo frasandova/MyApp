@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Myapp</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <link href="./assets/css/bootstrap/themes/cyan-b.css" rel="stylesheet" id="bootstrapTheme">
+  <link href="./assets/css/main-theme/themes/cyan-m.css" rel="stylesheet" id="mainTheme">
+
+    <!-- PLUGINS -->
+    <link rel="stylesheet" href="./assets/css/plugins/animations.css">
+    <link rel="stylesheet" href="./assets/css/plugins/animate.css">
+    <link rel="stylesheet" href="./assets/css/plugins/slider-revolution.css">
+    <link rel="stylesheet" href="./assets/css/plugins/cubeportfolio.css">
+    <link rel="stylesheet" href="./assets/css/plugins/owl.carousel.css">
+    <link rel="stylesheet" href="./assets/css/plugins/font-awesome.css">
+    <link rel="stylesheet" href="./assets/css/plugins/devicons.css">
+
+
+</head>
+<body>
+
+
+  <app-root></app-root>
+
+
+
+       <!-- SCRIPTS -->
+       <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+       <script src="http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+       <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+       <script src="./assets/js/plugins/modernizr-latest.js"></script>
+       <script src="./assets/js/plugins/picturefill.js"></script>
+       <script src="./assets/js/plugins/smoothScroll.js"></script>
+       <script src="./assets/js/plugins/wow.js"></script>
+       <script src="./assets/js/plugins/classie.js"></script>
+       <script src="./assets/js/plugins/jquery.nav.js"></script>
+       <script src="./assets/js/plugins/jquery.stellar.js"></script>
+       <script src="./assets/js/plugins/jquery.themepunch.tools.js"></script>
+       <script src="./assets/js/plugins/jquery.themepunch.revolution.js"></script>
+       <script src="./assets/js/plugins/owl.carousel.js"></script>
+       <script src="./assets/js/plugins/jquery.knob.js"></script>
+       <script src="./assets/js/plugins/form.js"></script>
+       <script src="./assets/js/plugins/dialogFx.js"></script>
+       <script src="./assets/js/plugins/jquery.cubeportfolio.js"></script>
+       <script src="./assets/js/plugins/awesome-work.js"></script>
+       <script src="./assets/js/plugins/jquery.modalEffects.js"></script>
+       <script src="./assets/js/plugins/cssParser.js"></script>
+       <script src="./assets/js/plugins.js"></script>
+       <script src="./assets/js/style-switcher.js"></script>
+
+  <script>
+    $(function() {
+        //Plugins Init
+        Plugins.init();
+        Plugins.animations();
+        Plugins.wow();
+        Plugins.parallaxStellar();
+        Plugins.revolutionSlider();
+        Plugins.dialogEffects();
+        Plugins.onePageNav();
+        Plugins.owlCarousel();
+        Plugins.knobs(".lbKnob", "#26C6DA");
+        Plugins.modalEffects();
+  
+        //Custom JS Init
+        Custom.init();
+        // Custom.captchaFix();
+        // Custom.loadMoreNews();
+        Custom.mobileMenuAnimation();
+    });
+    </script>
+
+
+</body>
+</html>
